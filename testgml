@@ -1,0 +1,95 @@
+graph [
+  directed 1
+  node [
+    id 0
+    label "Minutes"
+  ]
+  node [
+    id 1
+    label "Assists"
+  ]
+  node [
+    id 2
+    label "Rebounds"
+  ]
+  node [
+    id 3
+    label "Points"
+  ]
+  node [
+    id 4
+    label "Fg3Pct"
+  ]
+  node [
+    id 5
+    label "Fg2Pct"
+  ]
+  node [
+    id 6
+    label "outcome"
+  ]
+  node [
+    id 7
+    label "Turnovers"
+  ]
+  node [
+    id 8
+    label "Fouls"
+  ]
+  node [
+    id 9
+    label "is_home"
+  ]
+  node [
+    id 10
+    label "opponent_rate"
+  ]
+  edge [
+    source 0
+    target 1
+  ]
+  edge [
+    source 0
+    target 2
+  ]
+  edge [
+    source 0
+    target 3
+  ]
+  edge [
+    source 1
+    target 6
+  ]
+  edge [
+    source 2
+    target 6
+  ]
+  edge [
+    source 3
+    target 6
+  ]
+  edge [
+    source 4
+    target 3
+  ]
+  edge [
+    source 5
+    target 3
+  ]
+  edge [
+    source 7
+    target 6
+  ]
+  edge [
+    source 8
+    target 6
+  ]
+  edge [
+    source 9
+    target 6
+  ]
+  edge [
+    source 10
+    target 6
+  ]
+]
